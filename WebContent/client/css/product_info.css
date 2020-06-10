@@ -1,0 +1,61 @@
+@charset "UTF-8";
+h1{
+		background-color:#04B17C;
+		color:#fff;
+		font-size: 20px;
+}
+	
+.bookinfo{
+		margin:100px auto;
+		width:902px;
+		height:402px;
+		border:#04B17C solid  1px;
+	}
+	
+.bookinfo .book{
+	margin: 30px 0 30px 30px;
+	width:250px;
+	float:left;
+	
+}
+
+.bookinfo .book img{
+	width:213px;
+	height:269px;
+	display:block;
+	margin:0 auto;
+	border:#04B17C solid  1px;
+}
+
+.bookinfo .book .button{
+	display: block;
+    text-decoration: none;
+    background-color: #04B17C;
+    height: 30px;
+    width: 100px;
+    color: #fff;
+    line-height: 30px;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.bookinfo .info{
+	margin: 30px 0 30px 0;
+    width: 530px;
+    float: left;
+    font-size: 14px;
+}
+
+.bookinfo .info hr{
+	background-color: #04B17C;
+    height: 1px;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding: 0px;
+    overflow: hidden;
+    border:none  /*去掉横线的边框*/
+}
+.bookinfo .info p{
+	margin:12px 0;
+}

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+.bookList{
+		margin:100px auto;
+		width:902px;
+		height:402px;
+		border:#04B17C solid  1px;
+	}
+	.booklist h1{
+		background-color:#04B17C;
+		color:#fff;
+		font-size: 14px;
+	}
+	.booklist .products{
+		height:200px;
+		margin-top:50px;
+	}
+	.booklist .products .product{
+		float:Left;
+		margin-left:50px;
+		width:160px;
+	}
+	.booklist .products .product .productImg{
+		margin-top:50px;
+		display: table-cell; /*主要是这个属性*/
+		text-align: center;
+		vertical-align: middle;
+		width:160px;
+		height:150px;
+	}
+
+	
+	.booklist .products .product .productTip{
+		width:160px;
+		text-align: center;
+	}
+	
+	.booklist .products .product .productTip a{
+		text-decoration: none;
+		font-size: 14px;
+    	color: black;
+	}
+	
+	
+	/*按钮*/
+.pagination {
+	width:100%;
+	margin: 30px 75px;
+	text-align: center;
+}
+
+.pagination ul {
+	width:500px;
+	margin: 5px auto;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.pagination li {
+	list-style-type: none;
+	float:left;
+	padding: 1px;
+	margin: 1px;
+}
+
+.pagination a,.pagination a:visited {
+	padding:5px;
+	border: 1px solid #9aafe5;
+	text-decoration: none;
+	color: #2e6ab1;
+}
+
+
+
+.pagination li.currentpage {
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid navy;
+	background-color: #2e6ab1;
+	color: #FFF;
+}
+.disablepage_a{
+	display:block; 
+	width:75px; 
+	height:15px;
+	}
+.disablepage_a:link,.disablepage_a:visited{!important; padding:0; border:0;}
+.disablepage_a:hover{!important; padding:0; border:0; background:none; }
+.pagination li.disablepage_p {
+	width: 75px;
+	height: 15px;
+	padding: 5px;
+	color: #929292;
+	background:url(../images/previous_page.png) no-repeat center center;
+}
+
+.pagination li.disablepage_p2 {
+	width: 75px;
+	height: 15px;
+	padding: 5px;
+	color: #929292;
+	background:url(../images/previous_page2.png) no-repeat center center;
+}
+
+.pagination li.disablepage_n{	
+	width: 75px;
+	height: 15px;
+	padding: 5px;
+	color: #929292;
+	background:url(../images/next_page.png) no-repeat center center;
+}
+
+.pagination li.disablepage_n2{	
+	width: 75px;
+	height: 15px;
+	padding: 5px;
+	color: #929292;background:url(../images/next_page2.png) no-repeat center center;
+}
+
+.pagination li.nextpage {
+	font-weight: bold;
+	padding: 5px;
+}

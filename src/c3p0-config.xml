@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="user">root</property>
+		<property name="password">522817262</property>
+		<property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+		<property 
+			name="jdbcUrl">jdbc:mysql://localhost:3306/bookproject?useUnicode=true&amp;characterEncoding=utf8&amp;serverTimezone=GMT%2B8
+			</property>
+	</default-config>
+	
+</c3p0-config>

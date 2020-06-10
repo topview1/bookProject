@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.main {
+    margin: 10px auto;
+    width: 348px;
+    border: #cccccc solid 1px;
+    border-radius: 5%;
+
+
+}
+
+.header{
+    width: 100%;
+    height: 149px;
+    border-bottom:1px #04B17C solid;
+    overflow: hidden;
+   
+}
+
+.header .logo{
+    text-align: center;
+    margin:25px auto 15px;
+    width: 70px;
+    height: 110px;
+   
+}
+.header .logo .name{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+/*  头部结束*/
+
+/* 导航栏 开始*/
+.menu{
+    height: 54px;
+    border-bottom:1px #04B17C solid;
+}
+
+.menu ul{
+    margin: 0 auto;
+    padding-left: 10px;
+}
+
+
+.menu ul li{
+    float: left;
+    list-style: none; 
+    
+}
+
+.menu ul li a{
+    padding: 0 14px;
+    font-size: 16px;
+    display: inline-block; 
+    line-height: 54px;     
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu ul li a:hover{
+    color: #04B17C;
+    background-color: #F3F5F7;        
+  }
+
+
+  .menu .option{
+      float:right;
+      margin-top: 25px;
+  }
+
+  .menu .option ul li{
+    float: left;
+    list-style: none;
+    margin-right: 6px; 
+  }
+  .menu .option ul li a{
+    padding: 0 4px;
+    font-size: 14px;
+    display: inline-block; 
+    line-height: 24px;     
+    text-decoration: none;
+    color: black;
+  }
+
+  .menu .option ul li a:hover{
+      color: #55C6E8;
+      background-color: white;
+  }
+  
+  /* 导航栏 结束*/
+  
+  /*搜索框开始*/
+  .search{
+    width: 853px;
+    margin: 40px auto;
+}
+
+.search .search_box{
+    height: 48px;
+    border: #04B17C 1px solid;
+    width: 798px;
+    line-height: 48px;
+    font-size: 18px;
+}
+
+.search .search_img{
+     text-indent:-9999px;   /*隐藏submit的文字*/
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: -242px 0;
+    height: 48px;
+    width: 48px;
+    border-color: transparent;
+    background-color: white;
+}
+  
+    /*搜索框开始*/
+    
+    /*尾部开始*/
+   .foot {
+    height: 90px;
+   	padding-top:50px;
+    width: 100%;
+    background-color:  #04B17C; 
+    color: white;
+    text-align: center;
+}
+ /*尾部结束*/
+ 
+  /*注册页面开始*/
+.containers {
+    margin: 15px;
+}
+
+.containers .container {
+    width: 318px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+ .containers .container .textLine {
+    margin-top: 5px;
+    width: 318px;
+    height: 33px;
+    line-height: 33px;
+    border: gray solid 1px;
+    border-radius: 5px;
+}
+
+.containers .container .tip{
+	display:none;
+	color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.containers .container textarea {
+    margin-top: 5px;
+    width: 318px;
+    height: 66px;
+    line-height: 12px;
+    border: gray solid 1px;
+    border-radius: 5px;
+    overflow-y: scroll
+}
+
+.containers .container a{
+	font-size: 11px;
+    text-decoration: none;
+    color: black;
+}

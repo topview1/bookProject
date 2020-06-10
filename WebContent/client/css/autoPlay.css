@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+  * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .box_autoplay {
+            width: 990px;
+            height: 360px;
+            position: relative;
+            margin:100px auto;
+        }
+
+        .box_autoplay .box_img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            /*设为透明，但是第一张图片不是透明*/
+            transition: all 1.5s;
+            /*放慢的动画效果*/
+        }
+
+        /*box_img的第二个class*/
+        .box_autoplay .box_img:nth-child(1) {
+            opacity: 1;
+        }
+
+        .box_autoplay .box_left {
+            left: 0;
+            position: absolute;
+            width: 35px;
+            height: 70px;
+            color: #ccc;
+            top: 140px;
+            border-radius: 0 5px 5px 0;
+            text-align: center;
+            line-height: 70px;
+            font-size: 27px;
+        }
+
+        .box_autoplay .box_right {
+            position: absolute;
+            width: 35px;
+            height: 70px;
+            color: #ccc;
+            top: 140px;
+            border-radius: 0 5px 5px 0;
+            text-align: center;
+            line-height: 70px;
+            font-size: 27px;
+            right: 0;
+        }
+
+        .box_autoplay .box_left:hover {
+            background-color: #00000050;
+            color: #fff;
+        }
+
+        .box_autoplay .box_right:hover {
+            background-color: #00000050;
+            color: #fff;
+        }
+
+        .box_autoplay .box_circle {
+            position: absolute;
+            bottom: 20px;
+            right: 70px;
+        }
+
+        .box_autoplay .box_circle>ul {
+            list-style: none;
+
+        }
+
+        .box_autoplay .box_circle ul li {
+            width: 14px;
+            height: 14px;
+            border-radius: 100%;
+            background-color: #ccc;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .box_autoplay .box_circle ul li:hover {
+            background-color: #fff;
+        }
